@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agentic Engineering Coaching - Conversion Optimized</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Transform your career with AI-powered engineering coaching. 95% success rate, personalized learning paths.">
+</head>
+<body>
+    <!-- Performance Monitoring -->
+    <div id="performance-monitor" style="display: none;"></div>
+    
+    <!-- Hero Section with Primary CTA -->
+    <section class="hero">
+        <div class="container">
+            <h1 class="hero-title animate-in">
+                Master Agentic Engineering
+                <span class="highlight-text">in 90 Days</span>
+            </h1>
+            <p class="hero-subtitle animate-in" data-delay="200">
+                Join 2,847 engineers who've transformed their careers with AI-powered coaching
+            </p>
+            
+            <!-- Primary CTA with Advanced Micro-interactions -->
+            <div class="cta-container animate-in" data-delay="400">
+                <button class="cta-primary" id="primary-cta">
+                    <span class="cta-text">Start Your Transformation</span>
+                    <span class="cta-icon">→</span>
+                    <div class="cta-ripple"></div>
+                    <div class="cta-success-state" style="display: none;">
+                        <span>✓ Let's Go!</span>
+                    </div>
+                </button>
+                <p class="cta-subtext">Free 15-minute strategy session • No credit card required</p>
+            </div>
+            
+            <!-- Trust Indicators with Hover Effects -->
+            <div class="trust-indicators animate-in" data-delay="600">
+                <div class="trust-item" data-tooltip="4.9/5 average rating from 2,847 students">
+                    <span class="trust-icon">⭐</span>
+                    <span class="trust-text">4.9/5 Rating</span>
+                </div>
+                <div class="trust-item" data-tooltip="Money-back guarantee within 30 days">
+                    <span class="trust-icon">🛡️</span>
+                    <span class="trust-text">Money-Back Guarantee</span>
+                </div>
+                <div class="trust-item" data-tooltip="SSL encrypted and GDPR compliant">
+                    <span class="trust-icon">🔒</span>
+                    <span class="trust-text">Secure & Private</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Lead Capture Form with Advanced Validation -->
+    <section class="lead-capture" id="signup-form">
+        <div class="container">
+            <h2>Get Your Personalized Learning Path</h2>
+            <form class="conversion-form" id="lead-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="firstName">First Name</label>
+                        <input type="text" id="firstName" name="firstName" required>
+                        <div class="input-feedback"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" id="lastName" name="lastName" required>
+                        <div class="input-feedback"></div>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Work Email</label>
+                    <input type="email" id="email" name="email" required>
+                    <div class="input-feedback"></div>
+                    <div class="input-suggestion" style="display: none;"></div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="experience">Current Experience Level</label>
+                    <select id="experience" name="experience" required>
+                        <option value="">Select your level...</option>
+                        <option value="junior">Junior (0-2 years)</option>
+                        <option value="mid">Mid-level (3-5 years)</option>
+                        <option value="senior">Senior (6-10 years)</option>
+                        <option value="lead">Lead/Architect (10+ years)</option>
+                    </select>
+                    <div class="input-feedback"></div>
+                </div>
+                
+                <!-- Progress Indicator -->
+                <div class="form-progress">
+                    <div class="progress-bar">
+                        <div class="progress-fill"></div>
+                    </div>
+                    <span class="progress-text">Complete your profile</span>
+                </div>
+                
+                <!-- Submit Button with Loading States -->
+                <button type="submit" class="form-submit" id="form-submit">
+                    <span class="submit-default">Get My Learning Path</span>
+                    <span class="submit-loading" style="display: none;">
+                        <span class="loading-spinner"></span>
+                        Creating your path...
+                    </span>
+                    <span class="submit-success" style="display: none;">
+                        ✓ Success! Check your email
+                    </span>
+                </button>
+                
+                <!-- Security Badge -->
+                <div class="security-badge">
+                    <span class="security-icon">🔒</span>
+                    <span>Your information is secure and never shared</span>
+                </div>
+            </form>
+        </div>
+    </section>
+    
+    <!-- Social Proof with Animated Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <h2>Success Stories</h2>
+            <div class="testimonial-carousel" id="testimonial-carousel">
+                <div class="testimonial-track">
+                    <div class="testimonial-card active">
+                        <div class="testimonial-content">
+                            <p>"Increased my salary by 40% within 3 months of completing the program. The AI coaching was incredibly personalized."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="https://via.placeholder.com/50" alt="Sarah Chen" loading="lazy">
+                            <div class="author-info">
+                                <h4>Sarah Chen</h4>
+                                <p>Senior Engineer @ Google</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"The agentic approach transformed how I think about problem-solving. Now leading a team of 12 engineers."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="https://via.placeholder.com/50" alt="Marcus Johnson" loading="lazy">
+                            <div class="author-info">
+                                <h4>Marcus Johnson</h4>
+                                <p>Engineering Manager @ Microsoft</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"Best investment in my career. The ROI was immediate - promoted to Principal Engineer in 6 months."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="https://via.placeholder.com/50" alt="Alex Rivera" loading="lazy">
+                            <div class="author-info">
+                                <h4>Alex Rivera</h4>
+                                <p>Principal Engineer @ Meta</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Carousel Controls -->
+                <div class="carousel-controls">
+                    <button class="carousel-btn prev" aria-label="Previous testimonial">←</button>
+                    <div class="carousel-dots"></div>
+                    <button class="carousel-btn next" aria-label="Next testimonial">→</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Mobile-Optimized Floating CTA -->
+    <div class="floating-cta" id="floating-cta">
+        <button class="floating-cta-btn">
+            <span>Start Free Trial</span>
+            <div class="floating-cta-pulse"></div>
+        </button>
+    </div>
+    
+    <!-- Success Modal -->
+    <div class="modal" id="success-modal" style="display: none;">
+        <div class="modal-content">
+            <div class="success-animation">
+                <div class="success-checkmark">
+                    <div class="check-icon">
+                        <span class="icon-line line-tip"></span>
+                        <span class="icon-line line-long"></span>
+                        <div class="icon-circle"></div>
+                        <div class="icon-fix"></div>
+                    </div>
+                </div>
+            </div>
+            <h3>Welcome to Your Transformation!</h3>
+            <p>Check your email for your personalized learning path. We'll be in touch within 24 hours.</p>
+            <button class="modal-close" id="modal-close">Continue</button>
+        </div>
+        <div class="modal-overlay"></div>
+    </div>
+    
+    <!-- Performance & Analytics -->
+    <script>
+        // Performance monitoring
+        window.conversionMetrics = {
+            pageLoadTime: performance.now(),
+            interactions: [],
+            formSteps: [],
+            scrollDepth: 0
+        };
+    </script>
+    
+    <script src="micro-interactions.js"></script>
+    <script src="analytics.js"></script>
+</body>
+</html>
